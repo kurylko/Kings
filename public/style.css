@@ -1,0 +1,148 @@
+body {
+  background-color: antiquewhite;
+}
+.header {
+  background: whitesmoke;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  padding-top: 10px;
+  padding-left: 0px;
+  vertical-align: top;
+}
+
+.nav {
+  float: right;
+  padding-top: 0px;
+  list-style: none;
+}
+.nav li {
+  float: left;
+  margin-right: 0px;
+  font-size: 16px;
+}
+
+.nav li a {
+  display: block;
+  padding: 10px 15px;
+  background: whitesmoke;
+  color: #0d0535;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav li a:hover {
+  background: #51365f;
+  color: #efefef; /* Цвет текста при наведении курсора. */
+}
+
+/* .header {
+  display: flex;
+  background-color: whitesmoke;
+  height: 30px;
+  font-size: 18px;
+  color: white;
+  justify-content: space-around;
+  padding: 12px;
+}
+
+.logo {
+  display: flex;
+  justify-content: left;
+} */
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+}
+
+#welcome {
+  height: 400px;
+  background-image: url("thesea.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+#about {
+  padding: 15px;
+}
+
+h1 {
+  font-size: 46px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px #333;
+  line-height: 10em;
+}
+h2 {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex: 1 1 0;
+  text-align: center;
+  justify-content: center;
+}
+form {
+  margin: 0 auto;
+  width: 990px;
+  padding-top: 20px;
+}
+label {
+  line-height: 2;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  background: whitesmoke;
+  color: black;
+  border: 10px black;
+  padding: 5px 10px;
+  align-self: right;
+}
+
+input[type="message"] {
+  width: 200px;
+  height: 30px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid #999;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid rgb(51, 51, 51);
+  text-align: center;
+  padding: textarea;
+  margin: auto;
+}
+
+td,
+th {
+  border: 2px solid black;
+}
+th {
+  font-weight: bold;
+  background-color: rgb(170, 164, 164);
+}
+tr:nth-child(2n) {
+  background: rgb(170, 164, 164);
+}
+
+.submitContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
